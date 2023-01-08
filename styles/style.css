@@ -14,10 +14,11 @@
 	font-size: 40px;
 	grid-column: 2/3;
 	grid-row: 1/1;
-	margin-left: -1400px;
+
 }
 
 img {
-	z-index: 1;
 	padding: 50px;
+	grid-column: 1/2;
+	grid-row: 1/1;
 }
