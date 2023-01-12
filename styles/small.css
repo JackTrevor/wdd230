@@ -1,12 +1,10 @@
 
-
 body {
     font-size: 16px;
     line-height: 1.5;
     font-family: 'Averia Serif Libre', cursive;
     height: 100%;
     color: hsl(143, 89%, 17%)
-    
 }
 h1 {
     font-size: 2.5rem;
@@ -19,7 +17,6 @@ h2 {
     border-bottom: 1px solid #999;
     margin-bottom: 0.5rem;
 }
-
 header, nav, main, footer {
     margin: 0 auto;
     padding: 0.75rem;
@@ -29,16 +26,10 @@ header {
     margin-top: 10px;
     padding: 50px;
 }
-
-header nav {
-    background-color: red;
-    color: #fff;
-    height: 300px;
-}
 header, footer {
     text-align: center;
-    background-color: brown;
-    color: #fff;
+    background-color: #990011FF;
+    color: #FCF6F5FF;
 }
 header img {
     width: 100px;
@@ -57,7 +48,7 @@ footer a {
 
 #line {
     width: 300px;
-    border-right: 40px solid black;
+    border-right: 1px solid black;
 }
 #line2 {
     width: 300px;
