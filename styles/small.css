@@ -38,6 +38,9 @@ header img {
     float: left;
     margin-top: -20px;
 }
+.lessons-box {
+    text-align: center;
+}
 footer {
     font: 0.8rem;
     padding: 20px;
@@ -48,9 +51,11 @@ footer a {
 
 #line {
     width: 300px;
-    border-right: 1px solid black;
+    border: 1px solid black;
+    padding-left: 65%;
 }
 #line2 {
     width: 300px;
-    border-right: 1px solid black;
+    border: 1px solid black;
+    padding-left: 65%;
 }
