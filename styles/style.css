@@ -1,10 +1,9 @@
+
 .jack-id {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr;
-	background-color: blue;
-	
-	
+	background-color: blue;	
 }
 
 .jack-id h2 {
@@ -21,4 +20,8 @@ img {
 	padding: 50px;
 	grid-column: 1/2;
 	grid-row: 1/1;
+}
+
+h1, h2, .lessons {
+	font-family: 'Averia Serif Libre', cursive;
 }
