@@ -25,6 +25,8 @@ main section {
 	background-color: #eee;
 }
 main section h2 {
-	color: #536878;
+	color: white;
+	background-color: black;
+	width: 100%;
+	text-align: left;
 }
-
