@@ -1,3 +1,4 @@
+
 let daynames = [
     "Sunday",
     "Monday",
@@ -39,3 +40,10 @@ try {
     document.getElementById("currentdate2").textContent = new Date().toLocaleDateString("en-us", options);
 } catch (e) {("");
 }
+
+function newDate() {
+    
+    return new Date().getFullYear();
+  }
+
+  document.onload = document.getElementById("autodate").innerHTML =  + newDate();
