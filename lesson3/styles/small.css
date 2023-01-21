@@ -1,0 +1,127 @@
+header, footer {
+    text-align: center;
+    background-color: gray;
+    color: #FCF6F5FF;
+	font-family:'Averia', 'Serif Libre', 'sans-serif';
+	font-size: 32px;
+}
+header {
+    margin-top: 10px;
+    padding: 10px;
+}
+header img {
+	width: 100px;
+}
+
+nav {
+	font-size: 3rem;
+}
+
+body {
+	font-size: 16px;
+	font-family:'Averia', 'Serif Libre', 'sans-serif';
+}
+main {
+	max-width: 767px;
+	margin: 0 auto;
+	padding: 100px;
+}
+main section {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #eee;
+}
+main section h2 {
+	color: white;
+	background-color: orangered;
+	width: 100%;
+	text-align: center;
+	font-family: 'Roboto','sans-serif';
+}
+footer img {
+	width: 100px;
+	margin-top: 10px;
+}
+
+.typography {
+	margin-left: auto;
+	margin-right: auto;
+}
+table {
+	border-collapse: collapse;
+    border-spacing: 30px;
+    border: 1px solid #1D1D1D;
+    margin-bottom: 80px;
+}
+td, th {
+    border: 2px solid #1D1D1D;
+    padding: 10px;
+    max-width: 70em;
+    text-align: center;
+}
+.tablesiteheader {
+    background-color:gray;
+    color: white;
+}
+
+.typography {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tablesiteheadersample {
+    color: white;
+    background-color: gray;
+    font-family: 'averia', sans-serif;
+    font-size: 32px;
+}
+
+.tablenavcolor {
+    background-color: gray;
+    color: white;
+}
+
+.tablenavsample {
+    font-size: 3rem;
+    font-family: 'averia', 'sans-serif';
+    background-color: gray;
+    color: white;
+}
+
+.tableh1 {
+    color: #1D1D1D;
+}
+
+.tableh1sample {
+    font-size: 2em;
+    color: #1D1D1D;
+    font-family: 'averia', 'sans-serif';
+}
+.tableh2sample {
+    font-size: 1.5em;
+    color: #1D1D1D;
+    font-family: 'averia', 'sans-serif';
+}
+
+.tableh3sample {
+    font-size: 22px;
+    color: #1D1D1D;
+    font-family: 'roboto', 'sans-serif';
+}
+.tablepsample {
+    font-size: 16px;
+    color: #1D1D1D;
+    font-family: 'Times New Roman', 'sans-serif';
+}
+
+.tablefootercolor {
+	font-size: 22px;
+    color: #1D1D1D;
+    font-family: 'averia', 'sans-serif';
+}
+.tablefootersample {
+	font-size: 32px;
+    color: #1D1D1D;
+    font-family: 'averia', 'sans-serif';
+}
