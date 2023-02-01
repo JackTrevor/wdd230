@@ -14,7 +14,22 @@ header img {
 }
 
 nav {
-	font-size: 3rem;
+	display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+}
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+
+nav a:hover {
+	background-color: #708080;
+	color: yellow;
 }
 
 body {
@@ -38,6 +53,11 @@ main section h2 {
 	width: 100%;
 	text-align: center;
 	font-family: 'Roboto','sans-serif';
+}
+main section picture img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #bbb;
 }
 footer img {
 	width: 100px;
@@ -124,4 +144,17 @@ td, th {
 	font-size: 32px;
     color: #1D1D1D;
     font-family: 'averia', 'sans-serif';
+}
+.colors {
+    background-color: white;
+    border: 1px solid black;
+}
+h4 {
+    background-color: #eee;
+}
+h5 {
+    background-color: gray;
+}
+h6 {   
+    background-color: orangered;
 }

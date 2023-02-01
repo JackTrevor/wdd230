@@ -1,6 +1,19 @@
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 40em) {
+	
+	header	{
+		display: grid;
+	}
+	nav {
+		justify-content: center;
+	}
+	
 	main {
 		grid-template-columns: 1fr 1fr 1fr;
+	}
+	nav a {
+		font-size: 1.3rem;
+		
+		
 	}		
 	main section:nth-child(1) {
 	  grid-column: 1/2;
@@ -13,6 +26,7 @@
 		grid-column: span 1;
 	}
 }
+
 
 
 
