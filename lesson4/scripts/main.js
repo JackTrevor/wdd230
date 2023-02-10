@@ -23,4 +23,10 @@ function getFormattedDate() {
 	return `${weekday}, ${day} ${month} ${year}`;
 }
 
+const now = new Date();
+if (now.getDay() == 1 || now.getDay() == 2) {
+    const banner = document.querySelector("#banner");
+    banner.style.display = "block";
+}
+
 
