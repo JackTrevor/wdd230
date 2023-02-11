@@ -47,3 +47,10 @@ function newDate() {
   }
 
   document.onload = document.getElementById("autodate").innerHTML =  + newDate();
+
+
+  
+
+
+
+  
