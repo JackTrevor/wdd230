@@ -1,0 +1,13 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+picture {
+    display: block;
+}
+
+h1 {
+    font-size: 3em;
+    text-decoration: underline;
+}
