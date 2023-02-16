@@ -26,7 +26,7 @@
         <nav>
             <ul class="navigation">
                 <li><a id="menu" href="#"></a></li>
-                <li><a href="discover.html">Discover</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#">Directory</a></li>
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Contact</a></li>
@@ -42,69 +42,51 @@
         <div class="date"></div>   
     </header> 
     <main>
-        <div id="banner">
-            <h2>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2>
+        <div class="images-block">
+            <div class="img-paradise">
+                <h1> Natural and Concrete</h1>
+                <p>Here we know how to connect the natural beauty of the world with the wonders
+                    that men can create. This is the fourth-largest metropolitan area in Brazil.
+                    About 1.6 million people walk, live, study and work around the streets and beaches.</p>
+                <picture>
+                    <img src="images/dis-the-beach.jpg" alt="image of the beach" loading="lazy">
+                    <h4>The ocean and the city together</h4>
+                </picture>
+            </div>
+            <div class="img-beach">
+                <picture>
+                    <img src="images/dis-the-beach.jpg" alt="image of the beach"loading="lazy">
+                    <h4>Keeping the green in our sight</h4>        
+                </picture>
+            </div>
+            <div class="img-old-town">
+                <h1>The Preserved History</h1>
+                <p> This city has much to tell with old buildings that keep the history alive. </p>
+                <picture>
+                    <img src="images/dis-the-old-town.jpg" alt="image of old buildings of the city"loading="lazy">
+                    <h4>This is the exactly center of the city</h4>
+                </picture>
+            </div>
+            <div class="img-galo">
+                <h2>Culture and Tradition</h2>
+                <p>Galo da Madrugada! That's the name of a festival that brings to the streets every year more than a million people.</p>
+                <picture>
+                    <img src="images/dis-galo-madrugada.jpg" alt="image of the beach"loading="lazy">
+                    <h4>Carnaval in Recife, one of a kind!</h4>
+                </picture>
+            </div>
+            <div class="img-beach">
+                <h1>Busisness</h1>
+                <p>The literacy rate is over 90%! We studied and know how to do busisness! </p>
+                <picture>
+                    <img src="images/dis-busisness.jpg" alt="image of the beach"loading="lazy">
+                    <h4>Modern buildings to close deals</h4>
+                </picture>
+            </div>
+        </div>  
+        <div class="last-time">
+            <p>You last visited this page <span id="daysSinceLastVisit"></span> days ago.</p>
         </div>
-        <div class="blocks-of-content">
-            <div class="event">
-                <h1>Donation to the Kids</h1>
-                <h2>"It's time to give back to those who holds our future" Gather things that might be useful for others and share them!</h2>
-            </div>
-
-            <div class="hero">
-            <p>Welcome to Recife</p> 
-            <picture class="img-hero">   
-                <source media="(max-width:400px)" srcset="images/Small-370.jpg"> 
-                <source media="(max-width:800px)" srcset="images/Medium-768.jpg"> 
-                <source media="(max-width:12000px)" srcset="images/Large-1100.jpg">
-                <img src="images/wdd230-org.jpg" alt="large size">                  
-            </picture>  
-                <a class="join-chamber" href="#">Join the Chamber</a>                         
-            </div>        
-            <div class="weather-box">
-                <div id="weather-info-ph">
-                    <h3>Partly Cloudy</h3>
-                    <div>
-                        <p>Wind Speed:</p>
-                        <p>6 mp/h</p>
-                        <p>Wind Chill:</p>
-                    </div>
-                    <div id="wind-chill"> caution
-                    </div>
-                    <div>
-                        <p>Humidity:</p>
-                        <p>71%</p>
-                    </div>
-                </div>
-            </div>
-            <div class="join-us">
-                <h2>Discover how to join the chamber of commerce and how it will benefit your organization</h2>
-                <a class="join-us-button" href="#">---Join us---</a>   
-            </div>
-            <div class="news">
-                <h1>News Release</h1>
-                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius nibh non interdum sagittis.
-                Integer varius nibh non interdum sagittisl. sit amet, consectetur adipiscing elit.
-                </h4>
-            </div>
-            <div class="spots">
-            <div class="spot1">
-                <h1>Park School</h1>
-                <h2>"It's a school, in a park!" </h2>
-            </div>
-                    
-            <div class="spot2">
-                <h1>Shining Auto Shop</h1>
-                 <h2>"Give your vehicle to the best"</h2>
-            </div>
-
-            <div class="spot3">
-                <h1>--Cleaning the Beach--</h1>
-                <h2>We all need to enjoy and preserve our nature! </h2>
-            </div>
-
-            </div>   
-        </div>      
     </main>  
     <footer>  
         <div class="foot-titles">
@@ -124,14 +106,18 @@
         <div class="last">
             <span> &copy; 2023 Recife Chamber | Jackson Fonseca | WDD - 230 Project |</span> 
             <span id="lastModified"> </span> 
-        </div>    
-        
+        </div>        
     </footer> 
-    <script src="scripts/main.js"></script> 
-    <script src="scripts/windchill.js"></script> 
+    <script src="scripts/main.js"></script>
+    <script src="scripts/lastvisit.js"></script>  
+
 </body>
 </html>
 
+
+
+
+  
 
 
 

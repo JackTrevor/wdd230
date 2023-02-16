@@ -224,8 +224,30 @@ footer .foot-titles, .foot-contact {
     max-width: 200px; 
 }
 
+/* discover page styles */
 
- 
+.images-block h1, h2 {
+    background-color: #20639b;
+    text-align: center;
+    margin-bottom: 0;
+}
 
+.images-block p {
+    background-color: #20639b;
+    text-align: center;
+    margin-top: 0;
+}
 
- 
+.images-block h4 {
+    background-color: #d7dde2;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+.last-time p {
+    background-color: #3caea3 ;
+    text-align: center;
+}
+img:hover {
+    box-shadow: 0 0 50px #333;
+}

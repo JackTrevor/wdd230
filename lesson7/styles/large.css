@@ -186,6 +186,13 @@
         grid-row: 3/3;
         
     }   
+
+    /* discover page styles */
+
+    .images-block {
+        margin: 0 550px;
+    }
+    
 }
 
 
