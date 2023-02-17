@@ -1,11 +1,28 @@
+let moment = new Date();
+
+
 if (localStorage.getItem('lastVisit')) {
-    localStorage.setItem('lastVisit', new Date().toString());
+  
+  let lastVisit = new Date(localStorage.getItem('lastVisit'));
+  
+  
+  let diffInMs = moment - lastVisit;
+  let diffInDays = Math.round(diffInMs / (1000 * 60 * 60 * 24));
+  
+  
+  let lastVisitElement = document.getElementById('last-visit');
+  
+  if (diffInDays === 0) {
+    
+    lastVisitElement.textContent = 'today';
+  } else if (diffInDays === 1) {
+    
+    lastVisitElement.textContent = 'yesterday';
+  } else {
+    
+    lastVisitElement.textContent = diffInDays + ' days ago';
   }
-  
-  const lastVisit = new Date(localStorage.getItem('lastVisit'));
-  const currentDate = new Date();
-  const timeDiff = currentDate.getTime() - lastVisit.getTime();
-  const daysDiff = Math.round(timeDiff / 86400000);
-  
-  document.getElementById('daysSinceLastVisit').textContent = daysDiff;
+}
+
+localStorage.setItem('lastVisit', moment);
   
