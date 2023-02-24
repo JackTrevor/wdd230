@@ -399,9 +399,11 @@ picture img {
 }
 
 .images-block p {
-    background-color: #20639b;
+    background-color: #a9def9;
     text-align: center;
     margin-top: 0;
+    color: black;
+    font-size: 1.5rem;
 }
 
 .images-block h4 {
