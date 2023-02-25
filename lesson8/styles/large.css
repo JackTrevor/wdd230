@@ -124,5 +124,12 @@
 
     .images-block {
         grid-column: 1/4;
-    }  
+    } 
+    /* join page */ 
+    .container {
+        grid-column: 2;
+    
+    }
+ 
 }
+
