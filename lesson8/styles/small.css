@@ -422,4 +422,60 @@ picture img {
 }
 img:hover {
     box-shadow: 0 0 50px #333;
+
 } 
+
+/* join page */
+
+form {
+    display: contents;
+}
+
+label {
+    display: block;
+    margin: 5px;
+    padding: 8px;
+}
+
+form label.personal input, label.busisness input , label.busisness select {
+    width: 100%;
+}
+.container {
+    color: black;
+    background-color: white;
+    text-align: left;
+}
+fieldset {
+    margin-bottom: 20px;
+    background-color:  #a9def9;
+}
+legend {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+textarea {
+    width: 100%;    
+}
+
+form label.personal input:required, label.busisness input:required {
+    border-left: red solid 6px;
+}
+
+form label.personal input:required:valid, label.busisness input:required:valid {
+    border-left: green solid 6px;
+}
+
+input[type="submit"] {
+    margin-top: 1rem;
+    text-align: center;
+    background-color: greenyellow;
+    font-size: 1.4rem;
+}
+/* thank you page */
+
+.thank-you-msg {
+    grid-column: 1/4;
+}
+
+
