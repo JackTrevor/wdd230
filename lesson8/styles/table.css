@@ -12,6 +12,7 @@ table {
     margin-bottom: 1rem;
     background-color: #f8f9fa;
     color: #212529;
+    justify-content: center;
 }
 
 th, td {
