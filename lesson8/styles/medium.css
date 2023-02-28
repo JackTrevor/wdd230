@@ -106,8 +106,11 @@
     }
 
     /*discover page styles */
-
-    .images-block, .last-time {
+    
+    .images-block {
+        grid-column: 1/3;
+    }
+    .last-time {
         grid-column: 1/3;
         grid-row: 7;
     }
