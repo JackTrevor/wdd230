@@ -6,13 +6,12 @@ body {
 }
 
 table {
-    display: grid;
+    display: inline-table;
     border-collapse: collapse;
-    width: 100%;
+    width: 50%;
     margin-bottom: 1rem;
     background-color: #f8f9fa;
     color: #212529;
-    justify-content: center;
 }
 
 th, td {
