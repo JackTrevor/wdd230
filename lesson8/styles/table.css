@@ -2,9 +2,11 @@ body {
     background-color: black;
     color: White;
     text-align: center;
+    justify-content: center;
 }
 
 table {
+    display: grid;
     border-collapse: collapse;
     width: 100%;
     margin-bottom: 1rem;
