@@ -125,6 +125,10 @@
     .images-block {
         grid-column: 1/4;
     } 
+    .images-block img:hover {
+        opacity: .6;
+        transform: scale(0.9);
+    }
     /* join page */ 
     .container {
         grid-column: 2;
