@@ -14,3 +14,4 @@ function calculateWindChill(temperature, windSpeed) {
 var windChill = calculateWindChill(temperature, windSpeed);
 document.getElementById("wind-chill").textContent = windChill;  
   
+  
