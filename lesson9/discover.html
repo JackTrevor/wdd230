@@ -4,19 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recife Chamber Of Commerce</title>
+    <meta name="description" content="Design Principles for Web Sites">
+    <title>Recife Chamber of Commerce</title>
     <link rel="icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Roboto:wght@100&family=Sansita&display=swap" rel="stylesheet">
-    <meta name="description" content="The main page for the Recife Chamber of Commerce">
-    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/normalize.css">  
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
-    
 </head>
-
 <body>
-
     <header>
         <div id="header-flexbox">
             <a id="headerLogo" href="index.html">
@@ -26,7 +22,6 @@
                 <h1>Recife </h1>
                 <p>Chamber Of Commerce</p>
             </div>
-
             <nav>
                 <div id="large-nav">
                     <a href="discover.html">Discover</a>
@@ -41,7 +36,7 @@
                 <div id="burgerBox">
                     <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
                     <ul id="primaryNav">
-                        <li class="active"><a href="directory.html">Directory</a></li>
+                        <li class="active"><a href="index.html">Directory</a></li>
                         <li><a href="discover.html">Discover</a></li>
                         <li><a href="join.html">Join</a></li>
                         <li><a href="#">Contact</a></li>
@@ -52,83 +47,54 @@
         <div id="head-date-holder">
             <span id="headerCurTime"></span>
         </div>
-    </header>
-
+        </header>
     <main>
-        <div id="banner">
-            <h2>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2>
-        </div>
-        <div id="hero">
-            <img id="heroImg" src="images/wdd230-org.jpg" alt="Hero Image" sizes="100vw"
-                srcset="images/Small-370.jpg 400w,
-                        images/Medium-768.jpg 800w,
-                        images/Large-1100.jpg 1200w"
-            >
-            <h2>Welcome To Recife</h2>
-            <a href="#">Join the Chamber</a>
-        </div>
-
-        <div id="events">
-            <h2>Donation to the Kids</h2>
-            <h3>At the Plaza</h3>
-            <h2>"It's time to give back to those who holds our future" Gather things that might be useful for others and share them!</h2>
-        </div>
-
-        <div id="weather">
-            <h2>Weather</h2>
-            <div id ="weather-box-ph">
-                <p id="weather-degrees"><span id="weatherDegrees">26</span>&#176;F</p>
+        <div class="images-block">
+            <div class="img-paradise">
+                <h1> Natural and Concrete</h1>
+                <p>Here we know how to connect the natural beauty of the world with the wonders
+                    that men can create. This is the fourth-largest metropolitan area in Brazil.
+                    About 1.6 million people walk, live, study and work around the streets and beaches.</p>
+                <picture>
+                    <img src="images/dis-city-paradise.jpg" alt="image of the beach" loading="lazy">
+                    <p>The ocean and the city together</p>
+                </picture>
             </div>
-            <div id="weather-info-ph">
-
-                <h3>Partly Cloudy</h3>
-                <hr>
-                <div>
-                    <p>Wind Speed:</p>
-                    <p><span id="windSpeed">6</span> mp/h</p>
-                </div>
-                <div>
-                    <p>Wind Chill:</p>
-                    <p id="windChill"> </p>
-                </div>
-                <div>
-                    <p>Humidity:</p>
-                    <p>50%</p>
-                </div>
+            <div class="img-beach">
+                <picture>
+                    <img src="images/dis-the-beach.jpg" alt="image of the beach"loading="lazy">
+                    <p>Keeping the green in our sight</p>        
+                </picture>
             </div>
-        </div>
-
-        <div id="news">
-            <h2>News Release</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-
-        <div id="spotlights">
-            <div id="spotlight1">
-                <h2>Park School</h2>
-                <h3>"It's a school, in a park!"</h3>
+            <div class="img-old-town">
+                <h1>The Preserved History</h1>
+                <p> This city has much to tell with old buildings that keep the history alive. </p>
+                <picture>
+                    <img src="images/dis-the-old-town.jpg" alt="image of old buildings of the city"loading="lazy">
+                    <p>This is the exactly center of the city</p>
+                </picture>
             </div>
-
-            <div id="spotlight2">
-                <h2>Shining Auto Shop</h2>
-                <h3>"Give your vehicle the best"</h3>
+            <div class="img-galo">
+                <h2>Culture and Tradition</h2>
+                <p>Galo da Madrugada! That's the name of a festival that brings to the streets every year more than a million people.</p>
+                <picture>
+                    <img src="images/dis-galo-madrugada.jpg" alt="image of the beach"loading="lazy">
+                    <p>Carnaval in Recife, one of a kind!</p>
+                </picture>
             </div>
-
-            <div id="spotlight3">
-                <h2>-Cleaning the Beach--</h2>
-                <h3>We all need to enjoy and preserve our nature!</h3>
-                
+            <div class="img-beach">
+                <h1>Busisness</h1>
+                <p>The literacy rate is over 90%! We studied and know how to do busisness! </p>
+                <picture>
+                    <img src="images/dis-busisness.jpg" alt="image of the beach"loading="lazy">
+                    <p>Modern buildings to close deals</p>
+                </picture>
             </div>
-        </div>
-
-        <div id="join">
-            <a href="#">Join Us!</a>
-            <p>Discover how to join the chamber of commerce and how it will benefit your organization</p>
-        </div>
+        </div> 
         <div class="last-time">
             <p>You last visited this page <span id="last-visit"></span>.</p>
-        </div>
-    </main>
+        </div> 
+    </main>  
     <footer>
         <section id="info-footer">
             <a href="index.html" id="footerLogo"><img src="images/logowebp.webp" alt="Recife Chamber Logo"></a>
@@ -159,9 +125,10 @@
                 <p>&copy; <span class="copyyear"></span> Recife Chamber | Jackson Fonseca | WDD 230 Project | <span class="currentdate"></span> </p>
             </div>
         </section>
-        
-    </footer>
+    </footer> 
     <script src="scripts/main.js"></script>
-    <script src="scripts/windchill.js"></script>
-    <script src="scripts/lastvisit.js"></script>
+    <script src="scripts/lastvisit.js"></script>  
+
 </body>
+</html>
+

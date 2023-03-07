@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recife Chamber Of Commerce</title>
+    <title>Recife Chamber Of Commerce - Join Page</title>
     <link rel="icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Roboto:wght@100&family=Sansita&display=swap" rel="stylesheet">
-    <meta name="description" content="The main page for the Recife Chamber of Commerce">
+    <meta name="description" content="The join page for the Recife Chamber of Commerce Website">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -41,9 +41,9 @@
                 <div id="burgerBox">
                     <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
                     <ul id="primaryNav">
-                        <li class="active"><a href="directory.html">Directory</a></li>
+                        <li class="active"><a href="index.html">Directory</a></li>
                         <li><a href="discover.html">Discover</a></li>
-                        <li><a href="join.html">Join</a></li>
+                        <li><a href="#">Join</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
@@ -55,79 +55,38 @@
     </header>
 
     <main>
-        <div id="banner">
-            <h2>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2>
-        </div>
-        <div id="hero">
-            <img id="heroImg" src="images/wdd230-org.jpg" alt="Hero Image" sizes="100vw"
-                srcset="images/Small-370.jpg 400w,
-                        images/Medium-768.jpg 800w,
-                        images/Large-1100.jpg 1200w"
-            >
-            <h2>Welcome To Recife</h2>
-            <a href="#">Join the Chamber</a>
-        </div>
+	    <form action="thankyou.html" method="get">
+            <div class="container">
+                <fieldset>
+                    <legend>Personal Information</legend>
+			        <label class="personal">First Name* <input type="text" name="first-name" required></label>
+                    <label class="personal">Last Name* <input type="text" name="last-name" required></label>
+                    <label class="personal">Busisness Position Title* (7 Caracters or More / Only letters /) <input type="text" name="position" id="position"></label>
+                    <label class="personal">Email* <input type="email" name="email" placeholder="example@example.com" required></label>
+                    <label class="personal">Cell Phone Number* <input type="tel" name="phone" required></label>		    
+		        </fieldset>
+            
+                <fieldset>
+                    <legend>Busisness Information</legend>
+			        <label class="busisness">Business Name/Title* <input type="text" name="business-name" required></label>
 
-        <div id="events">
-            <h2>Donation to the Kids</h2>
-            <h3>At the Plaza</h3>
-            <h2>"It's time to give back to those who holds our future" Gather things that might be useful for others and share them!</h2>
-        </div>
+			        <label class="busisness"> Membership Level* 
+                        <select name="membership-level" required> 
+				            <option value="">Select a Membership Level &#9662; </option>
+				        <option value="NP Membership">NP Membership (Free)</option>
+				        <option value="Bronze Membership">$100 Bronze Membership</option>
+				        <option value="Silver Membership">$200 Silver Membership</option>
+				        <option value="Gold Membership">$300 Gold Membership</option>
+			            </select>
+                    </label>
+			            <label class="business-description">Business Description <textarea></textarea></label>
+                        <input type="hidden" name="form-loaded-time" id="form-loaded-time" >
+			            <input type="submit" value="Join Now">
+                </fieldset>    
+		    </div>
+	    </form>
 
-        <div id="weather">
-            <h2>Weather</h2>
-            <div id ="weather-box-ph">
-                <p id="weather-degrees"><span id="weatherDegrees">26</span>&#176;F</p>
-            </div>
-            <div id="weather-info-ph">
 
-                <h3>Partly Cloudy</h3>
-                <hr>
-                <div>
-                    <p>Wind Speed:</p>
-                    <p><span id="windSpeed">6</span> mp/h</p>
-                </div>
-                <div>
-                    <p>Wind Chill:</p>
-                    <p id="windChill"> </p>
-                </div>
-                <div>
-                    <p>Humidity:</p>
-                    <p>50%</p>
-                </div>
-            </div>
-        </div>
-
-        <div id="news">
-            <h2>News Release</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-
-        <div id="spotlights">
-            <div id="spotlight1">
-                <h2>Park School</h2>
-                <h3>"It's a school, in a park!"</h3>
-            </div>
-
-            <div id="spotlight2">
-                <h2>Shining Auto Shop</h2>
-                <h3>"Give your vehicle the best"</h3>
-            </div>
-
-            <div id="spotlight3">
-                <h2>-Cleaning the Beach--</h2>
-                <h3>We all need to enjoy and preserve our nature!</h3>
-                
-            </div>
-        </div>
-
-        <div id="join">
-            <a href="#">Join Us!</a>
-            <p>Discover how to join the chamber of commerce and how it will benefit your organization</p>
-        </div>
-        <div class="last-time">
-            <p>You last visited this page <span id="last-visit"></span>.</p>
-        </div>
     </main>
     <footer>
         <section id="info-footer">
@@ -159,9 +118,7 @@
                 <p>&copy; <span class="copyyear"></span> Recife Chamber | Jackson Fonseca | WDD 230 Project | <span class="currentdate"></span> </p>
             </div>
         </section>
-        
     </footer>
     <script src="scripts/main.js"></script>
-    <script src="scripts/windchill.js"></script>
-    <script src="scripts/lastvisit.js"></script>
+    <script src="scripts/timeload.js"></script>
 </body>
