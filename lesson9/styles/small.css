@@ -517,10 +517,7 @@ h2.business-header {
     margin: 12px;
 }
 
-    #small-footer {
-        display: none;
-    }
-
+  
 .grid section {
 	flex-direction: column;
 	text-align: center;
@@ -548,7 +545,6 @@ h2.business-header {
 	margin: 0 1rem;
 }
 
-    /*discover page styles */
 
 .list section:nth-child(even) {
 	background-color: #a9def9;
