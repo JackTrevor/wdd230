@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "businesses": [
         {
@@ -73,4 +74,81 @@
             "membership": "Gold Membership"
         }
     ]
+=======
+{
+    "businesses": [
+        {
+            "image": "images/directory/aacd.png",
+            "company": "AACD",
+            "address": "01 Main St. Recife PE. 54310-000",
+            "phoneNumber": "(00)0000-0000",
+            "website": "fake.com",
+            "membership": "Bronze Membership"
+        },
+        {
+            "image": "images/directory/brf.png",
+            "company": "Brazil's Food",
+            "address": "01 Main St. Recife PE. 54310-000",
+            "phoneNumber": "(00)0000-0000",
+            "website": "fake.com",
+            "membership": "Silver Membership"
+        },
+        {
+            "image": "images/directory/cronoshare.png",
+            "company": "Crono Share",
+            "address": "01 Main St. Recife PE. 54310-000",
+            "phoneNumber": "(00)0000-0000",
+            "website": "fake.com",
+            "membership": "NP Membership"
+        },
+        {
+            "image": "images/directory/estapar.png",
+            "company": "Estapar",
+            "address": "01 Main St. Recife PE. 54310-000",
+            "phoneNumber": "(00)0000-0000",
+            "website": "fake.net",
+            "membership": "NP Membership"
+        },
+        {
+            "image": "images/directory/gav.png",
+            "company": "Gav Resorts",
+            "address": "01 Main St. Recife PE. 54310-000",
+            "phoneNumber": "(00)0000-0000",
+            "website": "fake.org",
+            "membership": "Bronze Membership"
+        },
+        {
+            "image": "images/directory/grupogf.png",
+            "company": "Grupo GF",
+            "address": "01 Main St. Recife PE. 54310-000",
+            "phoneNumber": "(00)0000-0000",
+            "website": "fake.com",
+            "membership": "Gold Membership"
+        },
+        {
+            "image": "images/directory/pperson.png",
+            "company": "Page Personel",
+            "address": "01 Main St. Recife PE. 54310-000",
+            "phoneNumber": "(00)0000-0000",
+            "website": "fake.com",
+            "membership": "Silver Membership"
+        },
+        {
+            "image": "images/directory/sulamerica.png",
+            "company": "SulaAmerica",
+            "address": "01 Main St. Recife PE. 54310-000",
+            "phoneNumber": "(00)0000-0000",
+            "website": "fake.com",
+            "membership": "Gold Membership"
+        },
+        {
+            "image": "images/directory/zinzane.png",
+            "company": "Zinzane",
+            "address": "01 Main St. Recife PE. 54310-000",
+            "phoneNumber": "(00)0000-0000",
+            "website": "fake.com",
+            "membership": "Gold Membership"
+        }
+    ]
+>>>>>>> 75b8b959d5ded7e63dc90220a1ba0fd9eddfeff2
 }

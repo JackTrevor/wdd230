@@ -99,6 +99,31 @@ if("IntersectionObserver" in window) {
             }
         });
     }, imgOptions);
+<<<<<<< HEAD
+=======
+
+
+    imagesToLoad.forEach((img) => {
+        imgObserver.observe(img);
+    });
+} else {
+    console.log("Failed")
+    imagesToLoad.forEach((item) => {
+        loadImages(item);
+    });
+    
+}
+
+const formLoadedTimeInput = document.getElementById('form-loaded-time');
+const timeNow = new Date();
+formLoadedTimeInput.value = now.toLocaleString();
+
+const positionInput = document.getElementById('position');
+positionInput.pattern = '[A-Za-z -]{7,}';
+
+
+
+>>>>>>> 75b8b959d5ded7e63dc90220a1ba0fd9eddfeff2
 
 
     imagesToLoad.forEach((img) => {

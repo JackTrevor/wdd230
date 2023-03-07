@@ -11,3 +11,11 @@ h1 {
     font-size: 3em;
     text-decoration: underline;
 }
+main img[data-src] {
+    filter: blur(0.5em);
+}
+  
+main img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1 {
     text-align: center;
 }
@@ -32,4 +33,40 @@ footer {
     align-content: center;
     background-color: rgb(150, 115, 69);
     font-size: 24px;
+=======
+h1 {
+    text-align: center;
+}
+
+h2, p {
+    text-align: center;
+}
+
+img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+section {
+    background-color: rgb(150, 115, 69);
+    border: 1px solid black;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(150, 115, 69);
+    font-size: 24px;
+>>>>>>> 75b8b959d5ded7e63dc90220a1ba0fd9eddfeff2
 }

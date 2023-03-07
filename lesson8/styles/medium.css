@@ -1,105 +1,117 @@
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 35rem) {
     
-    nav {
-        grid-column: 3;
-    }
-    .social {
-        grid-column: 2;
-        grid-row: 1;
-    }
-    .blocks-of-content {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-        text-align: center;
-        row-gap: 8px;
-        column-gap: 8px;
-        margin-top: 16px;
-        margin-bottom: 16px;
-    }
-    .event, .hero, .spot1, .weather, .spot2, .join, .news, .spot3 {
-        background-color: #12355B;
-        margin: 0;
-    } 
-    .spots {
-        grid-column: 1/3;
-        grid-row: 3/3;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        align-items: center;
-        justify-items: center;
-        column-gap: 8px;
-        padding: 16px;
-        margin-right: 0px;
-    } 
-    .hero {
-        grid-column: 1/3;
-        grid-row: 1/1;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-    }
-    .hero p  {
-        font-size: 2.5em;
-    }
-    .join-chamber {
-        font-size: 1.5em;
-        position: absolute;
-        bottom: 600px;
-        
-    }
-    .news {
-        grid-column: 1/3;
-        grid-row: 2/2;
-    }
-    .spot1 {
-        grid-column: 1;
-        width: 100%;
-    }
-    .spot2 {
-        grid-column: 2;
-        grid-row: 1;
-        width: 100%;
-    }
-    .join-us {
-        grid-column: 1/3;
-        grid-row: 4/4;
-        display: block;
-    }
-    .join-us a {
-        font-size: 2.5em;
-        color: white;
-        padding-left: 50px;
-        padding-right: 50px;
-        border: 1px solid green;
-        background-color: green;
-    }
-    .event {
-        grid-column: 1/2;
-        grid-row: 5;
-        height: 80%;
-    }
-    .weather-box {
-        grid-column: 2/2;
-        grid-row: 5;
-        height: 80%;
+    h1 {
+        font-size: xx-large;
     }
 
-    .spot3 {
-        display: none;
-    } 
-    footer {
-        grid-template-columns: 1fr 1fr;
+    main {
+        display: grid;
+        grid-template-columns: 60% 40%;
     }
-    footer img {
-        float: left;
+
+    main div {
+        margin: 10px 0px;
     }
-    footer .foot-titles, .foot-contact {
-        line-height: 0.8;
-    }
-    .last {
+
+    #banner {
+        grid-row: 1/2;
         grid-column: 1/3;
     }
-      
+
+    #hero {
+        grid-row: 2/3;
+        grid-column: 1/3;
+    }
+
+    #news {
+        grid-row: 3/4;
+        grid-column: 1/3;
+
+    }
+
+    #join {
+        display: flex;
+        flex-direction: column;
+        grid-row: 5/6;
+        grid-column: 1/3;
+    }
+
+    #events {
+        margin: 10px;
+        grid-row: 6/7;
+        grid-column: 1/2;
+        display: grid;
+        flex-direction: column;
+    }
+
+    #weather {
+        margin: 10px;
+        grid-row: 6/7;
+        grid-column: 2/3;
+    }
+
+    #weather p {
+        margin: 3px;
+    }
+
+    #spotlights {
+        display: flex;
+        grid-row: 4/5;
+        grid-column: 1/3;
+
+    }
+
+    #spotlights div {
+        padding: 0px;
+        margin: 10px; 
+        flex: 1;
+    }
+    #info-footer {
+        display: flex;
+        flex: 1;
+        padding: 10px;
+    }
+
+    #footerLogo {
+        width: 170px;
+        height: auto;
+        padding: 10px;
+        margin: 3px;
+    }
+
+    #footerLogo img {
+        width: 100%;
+        height: auto;
+    }
+
+    #footer-info-box1 {
+        margin-bottom: auto;
+        margin-top: auto;
+        padding: 10px;
+        text-align: left;
+    }
+    
+    #footer-info-box2 {
+        margin-right: 0px;
+        margin-left: auto;
+    }
+
+    #small-footer {
+        display: none;
+    }
+
+    #medium-footer {
+        display: block;
+        font-size: medium;
+    }
+
+    /*discover page styles */
+    
+    .images-block {
+        grid-column: 1/3;
+    }
+    .last-time {
+        grid-column: 1/3;
+        grid-row: 7;
+    }
 }

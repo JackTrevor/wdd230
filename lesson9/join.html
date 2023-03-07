@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -121,4 +122,129 @@
     </footer>
     <script src="scripts/main.js"></script>
     <script src="scripts/timeload.js"></script>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recife Chamber Of Commerce - Join Page</title>
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Roboto:wght@100&family=Sansita&display=swap" rel="stylesheet">
+    <meta name="description" content="The join page for the Recife Chamber of Commerce Website">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    
+</head>
+
+<body>
+
+    <header>
+        <div id="header-flexbox">
+            <a id="headerLogo" href="index.html">
+                <img src="images/logo150x150.webp" alt="recife chamber logo">
+            </a>
+            <div id="headerTextInfo">
+                <h1>Recife </h1>
+                <p>Chamber Of Commerce</p>
+            </div>
+
+            <nav>
+                <div id="large-nav">
+                    <a href="discover.html">Discover</a>
+                    <a href="directory.html">Directory</a>
+                    <a href="join.html">Join</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div id="social-logo-box">
+                    <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook Logo" class="social-image"></a>
+                    <a href="https://www.instagram.com"><img src="images/instagram.png" alt="Instagram Logo" class="social-image"></a>
+                </div>
+                <div id="burgerBox">
+                    <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                    <ul id="primaryNav">
+                        <li class="active"><a href="index.html">Directory</a></li>
+                        <li><a href="discover.html">Discover</a></li>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div id="head-date-holder">
+            <span id="headerCurTime"></span>
+        </div>
+    </header>
+
+    <main>
+	    <form action="thankyou.html" method="get">
+            <div class="container">
+                <fieldset>
+                    <legend>Personal Information</legend>
+			        <label class="personal">First Name* <input type="text" name="first-name" required></label>
+                    <label class="personal">Last Name* <input type="text" name="last-name" required></label>
+                    <label class="personal">Busisness Position Title* (7 Caracters or More / Only letters /) <input type="text" name="position" id="position"></label>
+                    <label class="personal">Email* <input type="email" name="email" placeholder="example@example.com" required></label>
+                    <label class="personal">Cell Phone Number* <input type="tel" name="phone" required></label>		    
+		        </fieldset>
+            
+                <fieldset>
+                    <legend>Busisness Information</legend>
+			        <label class="busisness">Business Name/Title* <input type="text" name="business-name" required></label>
+
+			        <label class="busisness"> Membership Level* 
+                        <select name="membership-level" required> 
+				            <option value="">Select a Membership Level &#9662; </option>
+				        <option value="NP Membership">NP Membership (Free)</option>
+				        <option value="Bronze Membership">$100 Bronze Membership</option>
+				        <option value="Silver Membership">$200 Silver Membership</option>
+				        <option value="Gold Membership">$300 Gold Membership</option>
+			            </select>
+                    </label>
+			            <label class="business-description">Business Description <textarea></textarea></label>
+                        <input type="hidden" name="form-loaded-time" id="form-loaded-time" >
+			            <input type="submit" value="Join Now">
+                </fieldset>    
+		    </div>
+	    </form>
+
+
+    </main>
+    <footer>
+        <section id="info-footer">
+            <a href="index.html" id="footerLogo"><img src="images/logowebp.webp" alt="Recife Chamber Logo"></a>
+            <div id="footer-info-box1">
+                <h3>Recife Chamber of Commerce</h3>
+                <p>100 street name</p>
+                <p>Recife, BR 999</p>
+            </div>
+            <div id="footer-info-box2">
+                <p>info@recifecc.org</p>
+                <p>+(55)81 2070-2300</p>
+                <a href="https://www.google.com/maps/place/Recife+-+PE/@-8.058437,-34.9049129,13.75z/data=!4m6!3m5!1s0x7ab196f88c446e5:0x3c9ef52922447fd4!8m2!3d-8.0577401!4d-34.8829629!16zL20vMGhkenQ">📍 Location Map</a>
+            </div>
+            
+        </section>
+        <section id="base-footer">
+            <div id ="small-footer">
+                <p>&copy; <span class="copyyear"></span> 2023 Recife Chamber  </p>
+                <h3>Jackson Fonseca </h3>
+                <p>WDD 230 Project</p>
+                <p><span class="currentdate"></span> </p>
+            </div>
+            <div id ="medium-footer">
+                <p>&copy; <span class="copyyear"></span> 2023 Recife Chamber | Jackson Fonseca | WDD - 230 Project |</p>
+                <p><span class="currentdate"></span> </p>
+            </div>
+            <div id ="large-footer">
+                <p>&copy; <span class="copyyear"></span> Recife Chamber | Jackson Fonseca | WDD 230 Project | <span class="currentdate"></span> </p>
+            </div>
+        </section>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/timeload.js"></script>
+>>>>>>> 75b8b959d5ded7e63dc90220a1ba0fd9eddfeff2
 </body>
