@@ -1,16 +1,16 @@
-var temperature = 42;
-var windSpeed = 5;
-
-
-function calculateWindChill(temperature, windSpeed) {
-    if (temperature <= 50 && windSpeed > 3.0) {
-      var windChill = 35.74 + 0.6215 * temperature - 35.75 * Math.pow(windSpeed, 0.16) + 0.4275 * temperature * Math.pow(windSpeed, 0.16);
-      return windChill.toFixed(2);
-    } else {
-      return "N/A";
+function calculateWindChill()
+{
+    const degrees = parseInt(document.querySelector("#weatherDegrees").innerHTML); 
+    const windSpeed = parseFloat(document.querySelector("#windSpeed").innerHTML);
+    let windChill = "N/A";
+    if (degrees <= 50 && windSpeed > 3.0)
+    {
+        windChill = (35.74 + (0.6215*degrees)-(35.75*(windSpeed**0.16)) + (0.4275*degrees*(windSpeed**0.16))).toFixed(1)
     }
-  }
-  
-var windChill = calculateWindChill(temperature, windSpeed);
-document.getElementById("wind-chill").textContent = windChill;  
+    
+    document.querySelector("#windChill").innerHTML = `${windChill} &#176;F`;
+}
+
+
+calculateWindChill();
   

@@ -469,7 +469,7 @@ form label.personal input:required:valid, label.busisness input:required:valid {
 input[type="submit"] {
     margin-top: 1rem;
     text-align: center;
-    background-color: greenyellow;
+    background-color: #25D0BC;
     font-size: 1.4rem;
 }
 /* thank you page */
