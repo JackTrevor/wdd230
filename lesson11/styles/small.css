@@ -289,9 +289,11 @@ main p {
     text-decoration: none;
 }
 
-#spotlight3 {
-    display: none;
+.business-1, .business-0, .business-2 {
+    margin: 8px;
+    border: 1px solid black;
 }
+
 
 #join {
     display: none;
@@ -551,4 +553,20 @@ h2.business-header {
 }
 .list section img {
 	display: none; /* smaller viewports only */
+}
+
+/* Contact us page */
+
+.contact-box {
+    grid-column: 1/4;
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-size: 1.5rem;
+}
+.contact-box legend {
+    font-size: 1.9rem;   
+}
+.contact-box textarea {
+    height: 200px;
 }

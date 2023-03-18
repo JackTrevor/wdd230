@@ -6,6 +6,7 @@
             "address": "01 Main St. Recife PE. 54310-000",
             "phoneNumber": "(00)0000-0000",
             "website": "fake.com",
+            "description": "test",
             "membership": "Bronze Membership"
         },
         {
@@ -14,6 +15,7 @@
             "address": "01 Main St. Recife PE. 54310-000",
             "phoneNumber": "(00)0000-0000",
             "website": "fake.com",
+            "description": "test",
             "membership": "Silver Membership"
         },
         {
@@ -22,6 +24,7 @@
             "address": "01 Main St. Recife PE. 54310-000",
             "phoneNumber": "(00)0000-0000",
             "website": "fake.com",
+            "description": "test",
             "membership": "NP Membership"
         },
         {
@@ -30,6 +33,7 @@
             "address": "01 Main St. Recife PE. 54310-000",
             "phoneNumber": "(00)0000-0000",
             "website": "fake.net",
+            "description": "test",
             "membership": "NP Membership"
         },
         {
@@ -38,6 +42,7 @@
             "address": "01 Main St. Recife PE. 54310-000",
             "phoneNumber": "(00)0000-0000",
             "website": "fake.org",
+            "description": "test",
             "membership": "Bronze Membership"
         },
         {
@@ -46,6 +51,7 @@
             "address": "01 Main St. Recife PE. 54310-000",
             "phoneNumber": "(00)0000-0000",
             "website": "fake.com",
+            "description": "test",
             "membership": "Gold Membership"
         },
         {
@@ -54,6 +60,7 @@
             "address": "01 Main St. Recife PE. 54310-000",
             "phoneNumber": "(00)0000-0000",
             "website": "fake.com",
+            "description": "test",
             "membership": "Silver Membership"
         },
         {
@@ -62,6 +69,7 @@
             "address": "01 Main St. Recife PE. 54310-000",
             "phoneNumber": "(00)0000-0000",
             "website": "fake.com",
+            "description": "test",
             "membership": "Gold Membership"
         },
         {
@@ -70,6 +78,7 @@
             "address": "01 Main St. Recife PE. 54310-000",
             "phoneNumber": "(00)0000-0000",
             "website": "fake.com",
+            "description": "test",
             "membership": "Gold Membership"
         }
     ]
