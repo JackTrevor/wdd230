@@ -294,6 +294,10 @@ main p {
     border: 1px solid black;
 }
 
+.business-2 {
+    display: none;
+}
+
 
 #join {
     display: none;

@@ -92,6 +92,7 @@
     }
     .business-2 {
         padding: 5px;
+        display: block;
     }
 
     .last-time p {
