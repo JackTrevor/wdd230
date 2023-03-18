@@ -83,17 +83,17 @@
     }
 
 
-    #spotlight3 {
-        display: block;
-    }
-
     #spotlights {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
         grid-column: 3/4;
         grid-row: 2/5;
         margin-bottom: 5px;
         height: auto;
+    }
+    .business-2 {
+        padding: 5px;
+        display: block;
     }
     .last-time p {
         background-color: #3caea3 ;

@@ -82,6 +82,7 @@
         justify-content: center;
     }
 
+
     #spotlights {
         display: grid;
         grid-template-columns: 1fr;
@@ -94,7 +95,6 @@
         padding: 5px;
         display: block;
     }
-
     .last-time p {
         background-color: #3caea3 ;
         text-align: center;
@@ -135,14 +135,9 @@
     
     }  
     
-    /* Contact us page */
+    
+    /* directory page */
 
-    .contact-box {
-        display: grid;
-        grid-column: 1/4;
-        margin-left: 15%;
-        margin-right: 15%;
-    }
 }
 
 

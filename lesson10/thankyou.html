@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recife Chamber Of Commerce</title>
+    <title>Recife Chamber Of Commerce - Thank you page</title>
     <link rel="icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Roboto:wght@100&family=Sansita&display=swap" rel="stylesheet">
-    <meta name="description" content="The main page for the Recife Chamber of Commerce">
+    <meta name="description" content="A thank you page for Recife Chamber of Commerce">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -41,7 +41,7 @@
                 <div id="burgerBox">
                     <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
                     <ul id="primaryNav">
-                        <li class="active"><a href="directory.html">Directory</a></li>
+                        <li class="active"><a href="index.html">Directory</a></li>
                         <li><a href="discover.html">Discover</a></li>
                         <li><a href="join.html">Join</a></li>
                         <li><a href="contactus.html">Contact</a></li>
@@ -55,63 +55,11 @@
     </header>
 
     <main>
-        <div id="banner">
-            <h2>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2>
+        <div class="thank-you-msg">
+            <h1> Thank you! We will be reaching out to you within the next 5 business day!
+            </h1>
         </div>
-        <div id="hero">
-            <img id="heroImg" src="images/wdd230-org.jpg" alt="Hero Image" sizes="100vw"
-                srcset="images/Small-370.jpg 400w,
-                        images/Medium-768.jpg 800w,
-                        images/Large-1100.jpg 1200w"
-            >
-            <h2>Welcome To Recife</h2>
-            <a href="join.html">Join the Chamber</a>
-        </div>
-
-        <div id="events">
-            <h2>Donation to the Kids</h2>
-            <h3>At the Plaza</h3>
-            <h2>"It's time to give back to those who holds our future" Gather things that might be useful for others and share them!</h2>
-        </div>
-
-        <div id="weather">
-            <h2>Weather</h2>
-            <div id ="weather-box-ph">
-                <img src="api" alt="api" id = "weather-icon">
-                <p id="weather-degrees"><span id="weatherDegrees"></span> &deg;F</p>
-            </div>
-            <div id="weather-info-ph">
-
-                <span id="weatherDescription"></span>
-                <hr>
-                <div>
-                    <p>Wind Speed:</p>
-                    <p><span id="windSpeed"></span> mp/h</p>
-                </div>
-                <div>
-                    <p>Wind Chill:</p>
-                    <p><span id="windChill"></span></p>
-                </div>
-                <div>
-                    <p>Humidity:</p>
-                    <p><span id="humidity"></span>%</p>
-                </div>
-            </div>
-        </div>        
-        <div id="news">
-            <h2>News Release</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-
-        <div id="spotlights"></div>
-
-        <div id="join">
-            <a href="join.html">Join Us!</a>
-            <p>Discover how to join the chamber of commerce and how it will benefit your organization</p>
-        </div>
-        <div class="last-time">
-            <p>You last visited this page <span id="last-visit"></span>.</p>
-        </div>
+        
     </main>
     <footer>
         <section id="info-footer">
@@ -125,8 +73,6 @@
                 <p>info@recifecc.org</p>
                 <p>+(55)81 2070-2300</p>
                 <a href="https://www.google.com/maps/place/Recife+-+PE/@-8.058437,-34.9049129,13.75z/data=!4m6!3m5!1s0x7ab196f88c446e5:0x3c9ef52922447fd4!8m2!3d-8.0577401!4d-34.8829629!16zL20vMGhkenQ">📍 Location Map</a>
-                <h5>Credits to <a href="https://openweathermap.org">OpenWeatherMap </a> </h5>
-                
             </div>
             
         </section>
@@ -145,11 +91,6 @@
                 <p>&copy; <span class="copyyear"></span> Recife Chamber | Jackson Fonseca | WDD 230 Project | <span class="currentdate"></span> </p>
             </div>
         </section>
-        
     </footer>
     <script src="scripts/main.js"></script>
-    <script src="scripts/windchill.js"></script>
-    <script src="scripts/lastvisit.js"></script>
-    <script src="scripts/spotlight.js"></script>
 </body>
-
