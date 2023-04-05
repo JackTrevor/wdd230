@@ -1,3 +1,4 @@
+
 h1, h2, h3 {
     font-family: 'Averia Serif Libre','Roboto', sans-serif;
 }
@@ -67,14 +68,13 @@ header nav{
     width: 50%;
     display: none;
 }
-#large-nav a {
-    
+#large-nav a { 
     text-decoration: none;
     color: black;
     font-size: 2.3rem;
 }
 #large-nav a:hover {
-    color: #6fbf73;
+    color: #ffdc47;
 }
 #burgerBox {
     flex:1;
