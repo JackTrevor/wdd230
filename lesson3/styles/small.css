@@ -149,12 +149,21 @@ td, th {
     background-color: white;
     border: 1px solid black;
 }
+
+h3 {
+    background-color: #0F3C0F;
+    color: white;
+    font-size: 1rem;
+}
 h4 {
-    background-color: #eee;
+    background-color: #6FBF73;
+    font-size: 1rem;
 }
 h5 {
-    background-color: gray;
+    background-color: #F29213;
+    font-size: 1rem;
 }
 h6 {   
-    background-color: orangered;
+    background-color: #FFDC47;
+    font-size: 1rem;
 }

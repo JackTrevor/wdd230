@@ -18,10 +18,20 @@
         justify-content: space-around;
     }
 
+    #social-logo-box {
+        display: block;
+        padding-top: 50px;
+        padding-right: 50px;
+    }
+
     main {
         display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         margin-bottom: 20px;
+    }
+
+    #title {
+        grid-column: 1/5;
     }
 
     main div {
@@ -30,15 +40,10 @@
         margin: 5px;
     }
 
-    #banner
-    {
-        grid-column: 1/4;
-        grid-row: 1/2;
-    }
     #hero {
-        grid-column: 2/3;
-        grid-row: 2/4;
-        margin:5px;
+        grid-column: 2/4;
+        grid-row: 2/3;
+        margin: 5px;
     }
 
     #hero img {
@@ -48,95 +53,65 @@
     #hero h2 {
         font-size: xx-large;
     }
- 
-    #events {
-        grid-column:1/2;
-        grid-row: 2/3;
-    }
     
     #weather {
         grid-column:1/2;
-        grid-row: 3/4;
+        grid-row: 2/3;
     }
 
-    #join {
+    #makeown {
+        grid-column: 4/5;
+        grid-row: 2;
         display: flex;
         padding:3px;
-        grid-column:1/2;
-        grid-row: 4/5;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    #join a {
+    #makeown a {
         width: 80%
     }
 
-    #news {
-        grid-column: 2/3;
-        grid-row: 4/5;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-    #spotlight3 {
-        display: block;
-    }
-
-    #spotlights {
-        display: flex;
-        flex-direction: column;
-        grid-column: 3/4;
-        grid-row: 2/5;
+    #coastal {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column: 1/5;
+        grid-row: 3;
         margin-bottom: 5px;
         height: auto;
     }
-    .last-time p {
-        background-color: #3caea3 ;
-        text-align: center;
+    .coastal-2, .coastal-3 {
+        padding: 5px;
+        display: block;
     }
     .last-time {
         grid-row: 5;
-        grid-column: 1/4;
+        grid-column: 2/4;
     }
-
-    #footer-info-box2 {
-        margin:auto;
+    footer img {
+        width: 50%;
     }
-
-    #medium-footer {
-        display:none;
+    .fresh-box { 
+        width: 100%;
+        grid-column: 2/4;
+        grid-row: 1;
     }
-
-    #large-footer {
-        display: block;
+    .call {
+        grid-column: 2/4;
+        grid-row: 2;
     }
-
-    #large-footer p {
-        font-size: medium;
+    form {
+        grid-column: 1/5;
+        grid-row: 3;
+        font-size: 1.6rem;
     }
-
-    /* discover page styles */
-
-    .images-block {
-        grid-column: 1/4;
-    } 
-    .images-block img:hover {
-        opacity: .6;
-        transform: scale(0.9);
+    #foundation {
+        grid-column: 2/4;
     }
-    /* join page */ 
-    .container {
-        grid-column: 2;
     
-    }  
-    
-    
-    /* directory page */
+
+
 
 }
 

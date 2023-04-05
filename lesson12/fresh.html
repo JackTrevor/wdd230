@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bountiful Foods</title>
     <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Roboto:wght@100&family=Sansita&display=swap" rel="stylesheet">
-    <meta name="description" content="The main page for the Bountiful Foods WebSite">
+    <meta name="description" content="The fresh page for the Bountiful Foods WebSite">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
+    
 </head>
 
 <body>
@@ -49,54 +50,74 @@
             </nav>
         </div>
     </header>
+	<main>
+        
+        <section class="fresh-box" id="freshbox">
+            <img class="owndrinks" id="drinksimg" src="images/makeyourown.jpg" alt="Mixed Fruit Drinks">
+               <section class="fresh-title-msg" >
+                    <h1>Make Your Own</h1>
+                    <p>How about we mix things up?</p>    
+               </section>
+        </section> 
+       
+        <h1 class="call">Let's get it started!</h1>
 
-    <main>
-        <div id="title">
-            <h1>Bountiful Foods</h1>
-            <h3> Welcome to Bountiful Foods, your go-to destination for fresh, 
-                organic, and locally fruits and fruit drinks. 
-                Our mission is to provide our customers with healthy and convenient 
-                food options that support their wellbeing. Whether you are a local 
-                resident or a tourist visiting the coastal area from Los Angeles to 
-                San Diego, we invite you to explore our website and discover our menu, 
-                locations, and online ordering options. Our commitment to quality, 
-                sustainability, and customer service is at the heart of everything 
-                we do, and we look forward to serving you and your loved ones!</h3>
-        </div>
-        <div id="weather">
-            <section class="weather">
-                <h2 class="weather-1">Weather in Carlsbad</h2>
-                <div class="weather-card">
-                    <p>Current Temperature: </p>
-                    <p>Condition Description: </p>
-                    <p>Humidity: </p>
-                </div>
-                <div class="forecast">
-                    <h3>3-Day Temperature Forecast</h3>
-                    <ul>
-                        <li>Day 1:</li>
-                        <li>Day 2:</li>
-                        <li>Day 3:</li>
-                    </ul>
-                </div>
-            </section>
-        </div>   
-               
-        <div id="hero">
-            <img id="heroImg" src="images/hero.jpg" alt="Hero Image" sizes="100vw">
-            <a href="fresh.html">How healthy does this look?</a>
-        </div>
-        <div id="makeown">
-            <a href="fresh.html">Make your own mix</a>
-            <img id ="drink-img" src="images/makedrinks.jpg" alt="image of a drink">
-        </div>
-        
-        <div id="coastal"></div>
-        
-        <div class="last-time">
-            <p>You last visited this page <span id="last-visit"></span>.</p>
-            <p><span class="label">Total number of drinks submitted: </span> <span class="submissions"></span></p>
-        </div>
+        <form onsubmit="drinkSubmission(); return false;">
+            <fieldset>
+                <label class="top">First Name* <input type="text" name="fname" id="name" required></label>
+                <label class="top">Email* <input type="email" name="email" id="email" required></label>
+                <label class="top">Phone* <input type="tel" name="phone" id="phone" placeholder="123-456-7890" required></label>
+                <br>
+                <label class="top" for="fruits1">Please choose 3 fruits:</label>
+                <select name="fruits" id="fruits1" required>
+                    <option value="">First fruit</option>
+                </select>
+                <select name="fruits" id="fruits2" required>
+                    <option value="">Second fruit</option>
+                </select>
+                <select name="fruits" id="fruits3" required>
+                    <option value="">Third fruit</option>
+                </select>
+              
+                <br>
+                <br>
+                <label class="top">Any Special Instructions? <textarea name="comments" id="comments"></textarea></label>
+                <input type="hidden" id="dateTime">
+            </fieldset>
+
+            <input type="submit" value="Make Your Own" class="submitBtn">
+         
+            
+            <p id="print_name"></p>
+            <p id="print_email"></p>
+            <p id="print_phone"></p>
+            <p id="print_comments"></p>
+            <p id="print_orderDate"></p>
+            
+            <br>
+            <p id="print_fruit1"></p>
+            <p id="carb1"></p>
+            <p id="protein1"></p>
+            <p id="fat1"></p>
+            <p id="cal1"></p>
+            <p id="sugar1"></p>
+            <br>
+
+            <p id="print_fruit2"></p>
+            <p id="carb2"></p>
+            <p id="protein2"></p>
+            <p id="fat2"></p>
+            <p id="cal2"></p>
+            <p id="sugar2"></p>
+            <br>
+
+            <p id="print_fruit3"></p>
+            <p id="carb3"></p>
+            <p id="protein3"></p>
+            <p id="fat3"></p>
+            <p id="cal3"></p>
+            <p id="sugar3"></p> 
+        </form> 
     </main>
     <footer>
         <div id="footer-logo">
@@ -112,15 +133,9 @@
             <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook Logo" class="social-image"></a>
             <a href="https://www.instagram.com"><img src="images/instagram.png" alt="Instagram Logo" class="social-image"></a>
             <a href="https://www.twitter.com/"><img src="images/twitter.svg" alt="Twitter Logo" class="social-image"></a>
-        </div>
-          
+        </div>    
     </footer>
     <script src="scripts/main.js"></script>
-    <script src="scripts/windchill.js"></script>
-    <script src="scripts/lastvisit.js"></script>
-    <script src="scripts/coastal.js"></script>
-    <script src="scripts/submissions.js"></script>
-</body>
-
-
-
+    <script src="scripts/makeown.js"></script>
+    </body>
+</html> 

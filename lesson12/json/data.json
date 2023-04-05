@@ -1,76 +1,34 @@
 {
-    "businesses": [
-        {
-            "image": "images/directory/aacd.png",
-            "company": "AACD",
-            "address": "01 Main St. Recife PE. 54310-000",
-            "phoneNumber": "(00)0000-0000",
-            "website": "fake.com",
-            "membership": "Bronze Membership"
+    "coastal": [
+        {   "name": "Laguna",
+            "image": "images/directory/laguna.jpg",
+            "description": " A popular tourist destination located in Orange County, Laguna Beach is known for its stunning coves, crystal-clear waters, and thriving arts scene.",
+            "location": "South Coast"
         },
         {
-            "image": "images/directory/brf.png",
-            "company": "Brazil's Food",
-            "address": "01 Main St. Recife PE. 54310-000",
-            "phoneNumber": "(00)0000-0000",
-            "website": "fake.com",
-            "membership": "Silver Membership"
+            "name": "La Jolla",
+            "image": "images/directory/lajolla.jpg",
+            "description": "A charming coastal community located just north of San Diego, La Jolla is known for its beautiful beaches, world-class dining, and stunning ocean views.",
+            "location": "South Coast"
         },
         {
-            "image": "images/directory/cronoshare.png",
-            "company": "Crono Share",
-            "address": "01 Main St. Recife PE. 54310-000",
-            "phoneNumber": "(00)0000-0000",
-            "website": "fake.com",
-            "membership": "NP Membership"
+            "name": "Malibu ",
+            "image": "images/directory/malibubeach.jpg",
+            "description": "Home to some of the most beautiful and pristine beaches in Southern California, Malibu is a popular destination for surfers, hikers, and beach-goers alike.",
+            "location": "South Coast"
         },
         {
-            "image": "images/directory/estapar.png",
-            "company": "Estapar",
-            "address": "01 Main St. Recife PE. 54310-000",
-            "phoneNumber": "(00)0000-0000",
-            "website": "fake.net",
-            "membership": "NP Membership"
+            "name": "New Port",
+            "image": "images/directory/newport.jpg",
+            "description": "Located in Orange County, Newport Beach is a picturesque seaside town with a bustling harbor and miles of sandy beaches. ",
+            "location": "South Coast"
         },
         {
-            "image": "images/directory/gav.png",
-            "company": "Gav Resorts",
-            "address": "01 Main St. Recife PE. 54310-000",
-            "phoneNumber": "(00)0000-0000",
-            "website": "fake.org",
-            "membership": "Bronze Membership"
-        },
-        {
-            "image": "images/directory/grupogf.png",
-            "company": "Grupo GF",
-            "address": "01 Main St. Recife PE. 54310-000",
-            "phoneNumber": "(00)0000-0000",
-            "website": "fake.com",
-            "membership": "Gold Membership"
-        },
-        {
-            "image": "images/directory/pperson.png",
-            "company": "Page Personel",
-            "address": "01 Main St. Recife PE. 54310-000",
-            "phoneNumber": "(00)0000-0000",
-            "website": "fake.com",
-            "membership": "Silver Membership"
-        },
-        {
-            "image": "images/directory/sulamerica.png",
-            "company": "SulaAmerica",
-            "address": "01 Main St. Recife PE. 54310-000",
-            "phoneNumber": "(00)0000-0000",
-            "website": "fake.com",
-            "membership": "Gold Membership"
-        },
-        {
-            "image": "images/directory/zinzane.png",
-            "company": "Zinzane",
-            "address": "01 Main St. Recife PE. 54310-000",
-            "phoneNumber": "(00)0000-0000",
-            "website": "fake.com",
-            "membership": "Gold Membership"
+            "name": "Santa Monica",
+            "image": "images/directory/santamonica.jpg",
+            "description": "Located just west of Los Angeles, Santa Monica is known for its famous pier, sandy beaches, and oceanfront dining options. ",
+            "location": "South Coast"
         }
+        
     ]
 }

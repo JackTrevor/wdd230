@@ -14,27 +14,6 @@ const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
 
 
-
-//Header Date
-const headerDate = document.querySelector("#headerCurTime");
-const now = new Date();
-const headFullDate = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(
-	now
-);
-headerDate.innerHTML = `<em>${headFullDate}</em>`;
-
-
-
-if (now.getDay() == 1 || now.getDay() == 2) {
-    const banner = document.querySelector("#banner");
-    if (!banner == null)
-    {
-        
-    banner.style.display = "block";
-    }
-}
-
-
 //Footer Date
 let daynames = [
     "Sunday",
